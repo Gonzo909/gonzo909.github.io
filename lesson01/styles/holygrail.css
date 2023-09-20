@@ -10,11 +10,6 @@ body {
     grid-column: 1 / 4;
   }
   
-  .left-sidebar {
-    background: lightblue;
-    grid-column: 1 / 2;
-  }
-  
   main {
     background: coral;
     grid-column: 2 / 3;
@@ -32,7 +27,6 @@ body {
     grid-column: 1 / 4;
   }
   
-  .left-sidebar,
   .right-sidebar {
     padding: 1rem;
   }
