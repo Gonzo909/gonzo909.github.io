@@ -1,23 +1,58 @@
-.header {
-    background-color: #f1f1f1;
+body {
+    //background-color: #f7ebcc;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f7ebcc;
+
+}
+
+header {
+    background-color: #4a2b1a;
+    color: #f7ebcc;
     padding: 30px;
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
 }
 
-.nav {
-    background-color: #f1f1f1;
+nav {
+    background-color: #C2E1BB;
+    color: #4a2b1a;
     overflow: hidden;
+    justify-content: center;
+    justify-items: center;
 }
 
-.main {
+main {
     padding: 16px;
     margin-top: 30px;
-    height: 1500px; /* Used in this example to enable scrolling */
+    //height: 1500px; /* Used in this example to enable scrolling */
+    justify-content: center;
+    justify-items: center;
+    color: #4a2b1a;
+    background-image: url("images/cmiygl-background.png");
+    background-color: #f7ebcc;
 }
 
-.footer {
-    background-color: #f1f1f1;
+footer {
+    background-color: #4a2b1a;
+    color: #f7ebcc;
     padding: 10px;
     text-align: center;
+}
+
+.card {
+    background-color: #68C9D2;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+h3 {
+    background: #F8C0BF;
+    color: #4a2b1a;
+    padding: 10px;
+    margin: -20px;
+    margin-bottom: 20px;
 }
