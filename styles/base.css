@@ -22,6 +22,15 @@ nav {
     justify-items: center;
 }
 
+.navbar li {
+    margin: 0;
+    padding: 100px;
+    overflow: hidden;
+    justify-content: center;
+    justify-items: center;
+    display: inline;
+}
+
 main {
     padding: 16px;
     margin-top: 30px;
