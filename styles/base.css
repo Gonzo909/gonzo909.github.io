@@ -22,13 +22,27 @@ nav {
     justify-items: center;
 }
 
-.navbar li {
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
     margin: 0;
-    padding: 100px;
+    padding: 80px;
     overflow: hidden;
     justify-content: center;
     justify-items: center;
     display: inline;
+    text-dec
+}
+
+nav a {
+    text-decoration: none;
+    color: #4a2b1a;
+    padding: 14px 25px;
+    display: inline-block;
+    justify-content: center;
+    justify-items: center; 
 }
 
 main {
@@ -39,6 +53,16 @@ main {
     text-align: center;
     color: #4a2b1a;
     background-color: #f7ebcc;
+}
+
+section ul {
+    list-style-type: none;
+    padding-right: 35px;
+}
+
+section a {
+    text-decoration: none;
+    color: #4a2b1a;
 }
 
 footer {
