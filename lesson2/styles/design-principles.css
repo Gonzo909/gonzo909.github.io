@@ -41,3 +41,19 @@ section a {
     justify-content: center;
     text-align: center;
 }
+
+h3 {
+    background: #F8C0BF;
+    color: #4a2b1a;
+    padding: 10px;
+    margin: -20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background: #F8C0BF;
+    color: #4a2b1a;
+    padding: 10px;
+    margin: -20px;
+    margin-bottom: 20px;
+}
