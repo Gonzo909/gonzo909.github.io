@@ -10,4 +10,17 @@
   nav ul li {
     flex: 1 1 100%;
   }
+
+  #menu {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: row;
+  }
+
+  .nabigation li {
+    display: block;
+    flex: 1 1 100%;
+  }
 }

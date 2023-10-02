@@ -109,3 +109,33 @@ h3 {
     margin-bottom: 20px;
 }
 
+#menu {
+    background-color: #C2E1BB;
+    font-size: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+#menu::before{
+    content: "≡"
+}
+
+#menu.open::before {
+    content: "✖️"
+}
+
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li a {
+    display: block;
+}
+
+.active::before{
+    content: "➡️"
+}
+
