@@ -28,9 +28,9 @@ header img {
 
 
 nav {
+    max-width: 100%;
     background-color: #C2E1BB;
     color: #4a2b1a;
-    overflow: hidden;
     justify-content: center;
     justify-items: center;
 }
@@ -39,23 +39,16 @@ nav ul {
     list-style-type: none;
 }
 
-nav ul li {
-    margin: 0;
-    padding: 80px;
-    overflow: hidden;
-    justify-content: center;
-    justify-items: center;
-    display: inline;
-    text-dec
+.navbar li {
+    display: none;
 }
 
-nav a {
+.navbar a {
     text-decoration: none;
     color: #4a2b1a;
     padding: 14px 25px;
-    display: inline-block;
-    justify-content: center;
-    justify-items: center; 
+    padding-right: 65px;
+    text-align: center;
 }
 
 main {
@@ -110,8 +103,9 @@ h3 {
 }
 
 #menu {
+    display: block;
     background-color: #C2E1BB;
-    font-size: 20px;
+    font-size: 1rem;
     border: 1px solid rgba(0,0,0,0.3);
     position: absolute;
     top: 1rem;
