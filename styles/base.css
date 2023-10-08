@@ -30,8 +30,6 @@ nav {
     max-width: 100%;
     background-color: #C2E1BB;
     color: #4a2b1a;
-    justify-content: center;
-    justify-items: center;
 }
 
 nav ul {
@@ -130,5 +128,10 @@ h3 {
 
 .active::before{
     content: "➡️"
+}
+
+.navbar li a:hover {
+    background-color: #4a2b1a;
+    color: #f7ebcc;
 }
 
