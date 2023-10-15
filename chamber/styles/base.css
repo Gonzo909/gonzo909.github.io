@@ -83,7 +83,6 @@ footer {
     justify-content: center;
 }
 
-//HAMBURGER STYLING
 #menu::before {
     content: "≡"
 }
@@ -101,16 +100,13 @@ footer {
     display: block;
 }
 
-//DARK MODE SWITCH
 #mode {
     position: absolute;
     top: 1rem;
     right: 2rem;
-    font-size: 5rem;
-    //cursor: pointer;
+    font-size: 3rem;
 }
 
-//HERO IMAGE
 .hero {
 	margin: 10px auto;
 	position: relative;
@@ -126,8 +122,8 @@ footer {
 
 .herolabel {
 	position: absolute;
-	top: 500px;
-	left: 600px;
+	top: 80px;
+	left: 60px;
 	background: radial-gradient(#fff, #e6b89c);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
