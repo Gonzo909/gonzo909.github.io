@@ -22,7 +22,7 @@
 </head>
 <body>
     <header>
-        <img src="images/Chamber-Hands.png" alt="Rexburg Chamber" width="50" height="50">
+        <img src="images/Chamber-Hands.webp" alt="Rexburg Chamber" width="50" height="50">
         <h1>Rexburg Chamber of Commerce</h1>
     </header>
 
@@ -43,7 +43,11 @@
     <main>
         <!--HeroImage here-->
         <div class="hero">
-            <img src="images/rexburg.jpg" alt="Rexburg">
+            <picture>
+                <source media="(min-width: 900px)" srcset="images/wdd230-large.webp">
+                <source media="(min-width: 500px)" srcset="images/wdd230-medium.webp">
+                <img src="images/wdd230-small.webp" alt="Organization Meeting">
+            </picture>
             <div class="herolabel">
                 <p>Join the Chamber</p>
             </div>
@@ -64,7 +68,9 @@
 
         <div class="weather">
             <h2>Weather</h2>
-            <p>Current Weather</p>
+            <p>Current Temperature: <span id="temperature">40</span> °F</p>
+            <p>Current Wind Speed: <span id="windSpeed">5</span> mph</p>
+            <p>Wind Chill: <span id="windChill"></span> °F</p>
             <p>Forecast</p>
         </div>
 
@@ -86,5 +92,6 @@
     
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
