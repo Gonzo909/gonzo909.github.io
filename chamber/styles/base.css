@@ -138,3 +138,18 @@ footer {
 	font-weight: 700;
 	font-size: 2rem;
 }
+
+.card {
+    margin: 10px auto;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.1);
+    height: 300px;
+    background-color: #e6b89c;
+}
+
+h3 {
+    margin: 0;
+    padding: .25rem;
+    background-color: #0c7c59;
+    color: #e6b89c;
+}

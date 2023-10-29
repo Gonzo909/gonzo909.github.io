@@ -22,4 +22,19 @@
     body #menu {
       display: none;
     }
+
+    .discover {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .sidebar {
+      grid-column: 1;
+      width: 100%;
+    }
+
+    .localphotos {
+      grid-column: 2;
+      width: 100%;
+    }
   }

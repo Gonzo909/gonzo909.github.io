@@ -33,53 +33,48 @@
     <nav class="navbar">
         <ul>
             <li><a href="index.html" title="Home" class="active">Home</a></li>
-            <li><a href="discover.html">Discover</a></li>
+            <li><a href="">Discover</a></li>
             <li><a href="" target="_blank">Directory</a></li>
             <li><a href="" target="_blank">Join</a></li>
         </ul>
 
     </nav>
 
-    <main>
-        <!--HeroImage here-->
-        <div class="hero">
-            <picture>
-                <source media="(min-width: 900px)" srcset="images/wdd230-large.webp">
-                <source media="(min-width: 500px)" srcset="images/wdd230-medium.webp">
-                <img src="images/rexburg.webp" alt="Organization Meeting">
-            </picture>
-            <div class="herolabel">
-                <p>Join the Chamber</p>
-            </div>
+    <main class="discover">
+       <div class="sidebar">
+        <div class="card" id="demographics">
+            <h3>demographics</h3>
         </div>
-
-        <!--Call to Action link here-->
-
-        <div class="current-events">
-            <h2>Current Events</h2>
+        <div class="card" id="events">
+            <h3>Events</h3>
             <ul>
-                <li>Event 1</li>
-                <li>Event 2</li>
-                <li>Event 3</li>
-                <li>Event 4</li>
-                <li>Event 5</li>
+
             </ul>
-        </div>
 
-        <div class="weather">
-            <h2>Weather</h2>
-            <p>Current Temperature: <span id="temperature">40</span> °F</p>
-            <p>Current Wind Speed: <span id="windSpeed">5</span> mph</p>
-            <p>Wind Chill: <span id="windChill"></span> °F</p>
-            <p>Forecast</p>
         </div>
+        <div class="card" id="attractions">
+            <h3>Attractions</h3>
+            <ul></ul>
+        </div>
+        <div class="card" id="data">
+            <h3>Statistical Data</h3>
+        </div>
+       </div>
 
-        <div class="company-spotlight">
-            <h2>Company Spotlight</h2>
-            <p>Company 1</p>
-            <p>Company 2</p>
-            <p>Company 3</p>
-        </div>
+       <div class="localphotos">
+        <p class="captions"></p>
+        <img src="images/rexburg-high-view.webp" alt="Bird's eye view of Rexburg" loading="lazy" width="500" height="500">
+        <p class="captions"></p>
+        <img src="images/rexburg-downtown1.webp" alt="Downtown Rexburg" loading="lazy">
+        <p class="captions"></p>
+        <img src="images/rexburg-family.webp" alt="Family in Rexburg" loading="lazy">
+        <p class="captions"></p>
+        <img src="images/byui.webp" alt="BYU-I Sign" loading="lazy">
+        <p class="captions"></p>
+        <img src="images/rexburg-mural.webp" alt="Rexburg Mural" loading="lazy">
+        <p class="captions"></p>
+        <img src="images/rexburg-sign.webp" alt="Rexburg Welcome Sign" loading="lazy">
+       </div>
     </main>
 
     <footer>
