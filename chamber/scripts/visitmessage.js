@@ -15,3 +15,8 @@ else if (numVisits >= 1 && (now - lasVisit) < (msToDays)) {
 else {
     visitMessage.textContent = `You last visited ${Math.floor((now - lasVisit) / msToDays)} days ago.`;
 }
+
+numVisits++;
+localStorage.setItem('numVisits-ls', numVisits);
+
+localStorage.setItem('lastVisit-ls', now);
