@@ -3,7 +3,7 @@ const msToDays = 84600000;
 const dateToday = new Date();
 
 let numVisits = Number(window.localStorage.getItem('numVisits-ls')) || 0;
-let lasVisit = new Date(window.localStorage.getItem('lastVisit-ls')) || 0;
+let lasVisit = Date(window.localStorage.getItem('lastVisit-ls')) || 0;
 let now = Date.now();
 
 if (numVisits === 0) {
@@ -12,7 +12,7 @@ if (numVisits === 0) {
 else if (numVisits >= 1 && (now - lasVisit) < (msToDays)) {
     visitMessage.textContent = `Back so soon! Awesome!`;
 }
-else {
+else if (numVisits >= 1) {
     visitMessage.textContent = `You last visited ${Math.floor((now - lasVisit) / msToDays)} days ago.`;
 }
 
