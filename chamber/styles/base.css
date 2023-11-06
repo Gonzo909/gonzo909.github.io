@@ -157,3 +157,74 @@ h3 {
 .localphotos img:hover {
     box-shadow: 0 0 3rem #333;
 }
+
+//FORM
+.membership {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.membershiplevels {
+    grid: 1fr;
+}
+
+.membershiptable {
+    grid: 1fr;
+}
+
+/* Apply some basic styles to the form container */
+form {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #e6b89c; /* Set background color */
+  }
+  
+  /* Style the form labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #0c7c59; /* Set label text color */
+  }
+  
+  /* Style text inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the membership level labels and radio buttons */
+  .sbs {
+    display: inline-block;
+    margin-right: 10px;
+    color: #0c7c59; /* Set text color for radio buttons */
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #0c7c59; /* Set button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Style the hidden timestamp input */
+  #timestamp {
+    display: none;
+  }
+  
