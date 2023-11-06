@@ -42,24 +42,56 @@
 
     <main>
         <form method="get" action="thankyou.html">
-            <label>First Name <input type="text" id="fname" name="fname" required></label>
-            <label>Last Name <input type="text" id="lname" name="lname" required></label>
-            <label>Title/Position <input type="text" id="title" name="title" pattern="" title=""></label>
+            <label class="top">First Name <input type="text" id="fname" name="fname" required></label>
+            <label class="top">Last Name <input type="text" id="lname" name="lname" required></label>
+            <label class="top">Title/Position <input type="text" id="title" name="title" pattern="^[a-zA-Z\- ]{7,}$" title="At least 7 characters"></label>
 
-            <label>Email <input tpye="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
-            <label>Mobile Phone Number <input type="tel" id="phone" name="phone" required></label>
-            <label>Business/Organization Name <input tpye="text" id="business" name="business" required></label>
+            <label class="top">Email <input tpye="email" id="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Mobile Phone Number <input type="tel" id="phone" name="phone" required></label>
+            <label class="top">Business/Organization Name <input tpye="text" id="business" name="business" required></label>
             
+            <div class="membership">
             <div>Membership Level</div>
-            <label><input type="radio" name="membership" value="nonprofit"> NP Membership</label>
-            <label><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-            <label><input type="radio" name="membership" value="silver"> Silver Membership</label>
-            <label><input type="radio" name="membership" value="gold"> Gold Membership</label>
+            <label class="sbs"><input type="radio" name="membership" value="nonprofit"> NP Membership</label>
+            <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+            <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+            <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+
+            <div id="membershiptable">
+                <table>
+                    <tr>
+                        <th>Membership Level</th>
+                        <th>Cost</th>
+                        <th>Benefits</th>
+                    </tr>
+                    <tr>
+                        <td>Non-Profit</td>
+                        <td>$100</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Bronze</td>
+                        <td>$250</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Silver</td>
+                        <td>$500</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>Gold</td>
+                        <td>$1000</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+            </div>
+            </div>
 
             <label for="description">Business/Organization Description <input type=""></label>
             <textarea id="description" name="description" rows="5" cols="30" placeholder="Tell us about your business or organization."></textarea>
 
-            <input type="hidden" id="timestamp" name="timestamp">
+            <input type="hidden" id="timestamp" name="timestamp" value="">
 
             <input type="submit" value="Join the Chamber">
         </form>
@@ -76,5 +108,6 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/join-form.js"></script>
 </body>
 </html>
