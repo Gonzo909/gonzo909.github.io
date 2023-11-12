@@ -1,0 +1,60 @@
+{
+    "businesses":[
+        {
+            "name": "Casa de Ochoa",
+            "address": "383 S 2nd W Suite B Rexburg, Idaho 83440",
+            "phone": "208-357-4250",
+            "website": "http://www.ordercasadeochoa.com/",
+            "img": "https://rexburgchamber.org/wp-content/uploads/2023/02/logo_-_LMP636b8035e02db.jpeg",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Fat Cats of Rexburg",
+            "address": "475 N 2nd E Rexburg, Idaho 83440",
+            "phone": "208-359-2600",
+            "website": "https://www.fatcatsfun.com/rexburg",
+            "img": "https://rexburgchamber.org/wp-content/uploads/2022/05/fat-cats.jpg",
+            "membership": "Gold"
+        },
+        {
+            "name": "Brigham Young University-Idaho",
+            "address": "525 S Center St Rexburg, Idaho 83440",
+            "phone": "208-496-1411",
+            "website": "https://www.byui.edu/",
+            "img": "https://rexburgchamber.org/wp-content/uploads/2012/03/byui.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Family Crisis Center",
+            "address": "16 E Main St Rexburg, Idaho 83440",
+            "phone": "208-356-0065",
+            "website": "https://www.familycrisiscenter.wixsite.com/familycrisiscenter/",
+            "img": "https://rexburgchamber.org/wp-content/uploads/2022/05/family-Crisis.png",
+            "membership": "Non-Profit"
+        },
+        {
+            "name": "Four Paw Adoption Inc.",
+            "address": "119 S 4th W Rexburg, Idaho 83440",
+            "phone": "208-356-3717",
+            "website": "https://www.adoptapet.com/",
+            "img": "https://rexburgchamber.org/wp-content/uploads/2022/05/four-paws.jpg",
+            "membership": "Silver"
+        },
+        {
+            "name": "Crush - Artisinal Drinks",
+            "address": "155 W Main St Rexburg, Idaho 83440",
+            "phone": "208-208-2221",
+            "website": "https://www.rexburgcrush.wixsite.com/yummydrinks/",
+            "img" : "https://rexburgchamber.org/wp-content/uploads/2022/06/crush-logo-800x418.jpg",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Rocky Mountain Power",
+            "address": "127 E Main St Rexburg, Idaho 83440",
+            "phone": "208-356-9529",
+            "website": "https://csapps.rockymountainpower.net/",
+            "img": "https://rexburgchamber.org/wp-content/uploads/2016/01/rocky-mtn-power-logo.jpg",
+            "membership": "Gold"
+        }
+    ]
+}

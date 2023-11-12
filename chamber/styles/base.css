@@ -73,6 +73,48 @@ main {
     justify-content: center;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.grid section {
+    background-color: #0c7c59;
+    color: #e6b89c;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section p {
+    font-size: 1.5rem;
+}
+
+.list section:nth-child(odd) {
+    background-color: #e6b89c;
+    color: #0c7c59;
+}
+
 footer {
     background-color: #0c7c59;
     color: #e6b89c;

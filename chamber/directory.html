@@ -10,7 +10,7 @@
     <meta property="og:description" content="Rexburg Idaho Chamber of Commerce Website">
     <meta property="og:url" content="https:/gonzo909.github.io/wdd230/chamber">
     <meta property="og:image" content="https:/gonzo909.github.io/wdd230/images/GonzoJim.jpg">
-    <title>Rexburg Chamber of Commerce</title>
+    <title>Rexburg Chamber of Commerce Directory</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
@@ -34,52 +34,14 @@
         <ul>
             <li><a href="index.html" title="Home" class="active">Home</a></li>
             <li><a href="discover.html">Discover</a></li>
-            <li><a href="directory.html">Directory</a></li>
+            <li><a href="" target="_blank">Directory</a></li>
             <li><a href="join.html" target="_blank">Join</a></li>
         </ul>
 
     </nav>
 
     <main>
-        <!--HeroImage here-->
-        <div class="hero">
-            <picture>
-                <source media="(min-width: 900px)" srcset="images/wdd230-large.webp">
-                <source media="(min-width: 500px)" srcset="images/wdd230-medium.webp">
-                <img src="images/rexburg.webp" alt="Organization Meeting">
-            </picture>
-            <div class="herolabel">
-                <p>Join the Chamber</p>
-            </div>
-        </div>
-
-        <!--Call to Action link here-->
-
-        <div class="current-events">
-            <h2>Current Events</h2>
-            <ul>
-                <li>Event 1</li>
-                <li>Event 2</li>
-                <li>Event 3</li>
-                <li>Event 4</li>
-                <li>Event 5</li>
-            </ul>
-        </div>
-
-        <div class="weather">
-            <h2>Weather</h2>
-            <p>Current Temperature: <span id="temperature">40</span> °F</p>
-            <p>Current Wind Speed: <span id="windSpeed">5</span> mph</p>
-            <p>Wind Chill: <span id="windChill"></span> °F</p>
-            <p>Forecast</p>
-        </div>
-
-        <div class="company-spotlight">
-            <h2>Company Spotlight</h2>
-            <p>Company 1</p>
-            <p>Company 2</p>
-            <p>Company 3</p>
-        </div>
+       <div class="grid"></div>
     </main>
 
     <footer>
@@ -92,6 +54,6 @@
     
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>
