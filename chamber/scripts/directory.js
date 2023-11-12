@@ -1,12 +1,12 @@
 const directoryURL = 'https://gonzo909.github.io/wdd230/chamber/data/members.json';
-const directoryList = document.querySelector('.directory');
+const directoryList = document.querySelector('.grid');
 
 async function getDirectory() {
     const response = await fetch(directoryURL);
     const data = await response.json();
 
     console.log(data);
-    displayDirectory(data);
+    displayDirectory(data.businesses);
 }
 
 const displayDirectory = (directory) => {
