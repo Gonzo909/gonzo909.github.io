@@ -68,10 +68,13 @@
 
         <div class="weather">
             <h2>Weather</h2>
-            <p>Current Temperature: <span id="temperature">40</span> °F</p>
-            <p>Current Wind Speed: <span id="windSpeed">5</span> mph</p>
-            <p>Wind Chill: <span id="windChill"></span> °F</p>
+            <p>Current Temperature: <span id="weather"></span></p>
+            <figure>
+                <img id="weather-icon" src="" alt="">
+                <figcaption></figcaption>
+            </figure>
             <p>Forecast</p>
+            <div id="forecast"></div>
         </div>
 
         <div class="company-spotlight">
@@ -93,5 +96,6 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
