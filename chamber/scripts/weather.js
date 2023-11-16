@@ -33,7 +33,6 @@ async function apiFetch() {
         const forecastResponse = await fetch(forecastUrl);
         if (forecastResponse.ok) {
             const forecastData = await forecastResponse.json();
-            console.log(forecastData);
             displayForecast(forecastData);
         }
         else {
