@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gonzalo Jimenez">
+    <meta name="description" content="Rental Scooters in Cozumel, Mexico">
+    <meta property="og:title" content="Scoots rental scooters">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="rental scooters in Cozumel, Mexico">
+    <meta property="og:url" content="https:/gonzo909.github.io/wdd230/scoots/index.html">
+    <meta property="og:image" content="https:/gonzo909.github.io/wdd230/scoots/images/">
+    <title>Scoots Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header><h1>Scoots</h1></header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#" title="Home" class="active">Home</a></li>
+            <li><a href="scoots/reservations.html">Reservations</a></li>
+            <li><a href="scoots/rentals.html">Rentals</a></li>
+            <li><a href="scoots/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!--Call to Action-->
+        <picture class="hero">
+            <source media="(min-width: 400px)" srcset="images/scooter-large.webp">
+            <img src="images/scooter-small.webp" alt="Scooter">
+        </picture>
+        <div class="herolabel">
+            <p>Rent a Scooter</p>
+        </div>
+
+        <!--Contact Info-->
+        <section class="card">
+            <h3>Contact Us</h3>
+            <p>Phone: 555-555-5555</p>
+            <p>Email: scootsrentals@gmail.com</p>
+            <p>Address: </p>
+        </section>
+
+        <!--Social Media Links-->
+        <section class="card">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+
+        <!--Weather-->
+        <section class="card">
+            <h3>Weather</h3>
+            <figure>
+                <img id="weather-icon" src="" alt="" loading="lazy">
+                <figcaption></figcaption>
+            </figure>
+            <h4>Weather: <span id="weather"></span></h4>
+            <h4>Humidity: <span id="humidity"></span></h4>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2023 Scoots, All Rights Reserved
+        </p>
+    </footer>
+    
+</body>
+</html>

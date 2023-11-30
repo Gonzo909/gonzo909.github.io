@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gonzalo Jimenez">
+    <meta name="description" content="Rental Scooters in Cozumel, Mexico">
+    <meta property="og:title" content="Scoots rental scooters">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="rental scooters in Cozumel, Mexico">
+    <meta property="og:url" content="https:/gonzo909.github.io/wdd230/scoots/index.html">
+    <meta property="og:image" content="https:/gonzo909.github.io/wdd230/scoots/images/">
+    <title>Scoots Reservations Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header><h1>Scoots</h1></header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#" title="Home">Home</a></li>
+            <li><a href="scoots/reservations.html" class="active">Reservations</a></li>
+            <li><a href="scoots/rentals.html">Rentals</a></li>
+            <li><a href="scoots/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!--Rental Agreement Info-->
+
+        <!--Reservation Form-->
+        <form>
+            <fieldset>
+                <legend>Reservation Form</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="model">Model:</label>
+                <select name="model" id="model" required>
+                    <option value="2019 Vespa Primavera 50">2019 Vespa Primavera 50</option>
+                    <option value="2018 Vespa Primavera 50">2018 Vespa Primavera 50</option>
+                    <option value="2017 Vespa Primavera 50">2017 Vespa Primavera 50</option>
+                    <option value="2016 Vespa Primavera 50">2016 Vespa Primavera 50</option>
+                </select>
+                <label for="pickup">Pickup Date:</label>
+                <input type="date" id="pickup" name="pickup" required>
+                <label for="dropoff">Dropoff Date:</label>
+                <input type="date" id="dropoff" name="dropoff" required>
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2021 Gonzalo Jimenez</p>
+    </footer>
+    
+</body>
+</html>

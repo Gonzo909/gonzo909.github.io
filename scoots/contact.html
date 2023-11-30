@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header><h1>Scoots</h1></header>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#" title="Home">Home</a></li>
+            <li><a href="scoots/reservations.html">Reservations</a></li>
+            <li><a href="scoots/rentals.html">Rentals</a></li>
+            <li><a href="scoots/contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="card">
+            <h3>Contact Us</h3>
+            <p>Phone: 555-555-5555</p>
+            <p>Email:</p>
+            <p>Address:</p>
+        </section>
+        <section class="card">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+
+        <!--Embedded Map-->
+
+        <!--Contact Us Form-->
+        <form>
+            <fieldset>
+                <legend>Contact Us</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
