@@ -4,6 +4,10 @@
       display: flex;
       margin: 0;
     }
+
+    body .navbar ul {
+      list-style: none;
+    }
     
     body .navbar li {
       display: flex;
