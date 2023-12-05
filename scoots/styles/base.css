@@ -168,6 +168,53 @@ main {
     height: 400px;
 }
 
+/*RENTAL TABLE*/
+
+.table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+    width: 100%;
+    color: #333;
+    font-family: 'Agbalumo', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    margin: 10px auto;
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #3E92CC;
+    color: #FFFAFF;
+    padding: 10px;
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #FFFAFF;
+    color: #333;
+}
+
+tr:nth-child(odd) {
+    background-color: #333;
+    color: #FFFAFF;
+}
+
+/* Form styles */
+
 /* Footer */
 footer {
     background-color: #3E92CC;

@@ -20,20 +20,43 @@
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
-    <header><h1>Scoots</h1></header>
-    <nav>
-        <ul class="navbar">
-            <li><a href="#" title="Home">Home</a></li>
-            <li><a href="reservations.html">Reservations</a></li>
-            <li><a href="rentals.html" class="active">Rentals</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="head-banner">
+        <header><h1>Scoots</h1></header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="rentals.html" class="active">Rentals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <main>
         <!--Rental Info-->
-        <table id="rentaltable">
-        </table>
+        <div class="table">
+            <table class="card" id="rentaltable">
+                <thead>
+                    <tr>
+                        <th colspan="6" scope="colgroup">Scoots Rental Pricing</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th colspan="2" scope="colgroup">Reservation</th>
+                        <th colspan="2" scope="colgroup">Walk-In</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">Rental Type</th>
+                        <th scope="col">Max. Persons</th>
+                        <th scope="col">Half Day (3 hrs)</th>
+                        <th scope="col">Full Day (8 hrs)</th>
+                        <th scope="col">Half Day (3 hrs)</th>
+                        <th scope="col">Full Day (8 hrs)</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
     </main>
 
     <footer>

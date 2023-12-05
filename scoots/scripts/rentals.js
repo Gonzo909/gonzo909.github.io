@@ -12,18 +12,24 @@ const displayRentals = (rentals) => {
         let row = document.createElement('tr');
         let type = document.createElement('td');
         let max = document.createElement('td');
-        let half = document.createElement('td');
-        let full = document.createElement('td');
+        let reservationHalf = document.createElement('td');
+        let reservationFull = document.createElement('td');
+        let walkinHalf = document.createElement('td');
+        let walkinFull = document.createElement('td');
 
         type.textContent = rental.type;
-        max.textContent = rental.max;
-        half.textContent = rental.half;
-        full.textContent = rental.full;
+        max.textContent = rental.maxpersons;
+        reservationHalf.textContent = rental.reservation[0].halfday;
+        reservationFull.textContent = rental.reservation[0].fullday;
+        walkinHalf.textContent = rental.walkin[0].halfday;
+        walkinFull.textContent = rental.walkin[0].fullday;
 
         row.appendChild(type);
         row.appendChild(max);
-        row.appendChild(half);
-        row.appendChild(full);
+        row.appendChild(reservationHalf);
+        row.appendChild(reservationFull);
+        row.appendChild(walkinHalf);
+        row.appendChild(walkinFull);
 
         table.appendChild(row);
     })  
