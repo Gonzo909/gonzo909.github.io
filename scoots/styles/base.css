@@ -89,6 +89,11 @@ main {
     opacity: 0.95;
 }
 
+.herolabel a{
+    text-decoration: none;
+    color: #FFFAFF;
+}
+
 .herolabel p {
     font-size: 24px;
     font-weight: bold;
@@ -102,11 +107,23 @@ main {
 /*Social media section*/
 #socialcard h3 {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
 }
 
 /*Weather section*/
-#weathercard h3 {
+#weathercard {
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Card section */
