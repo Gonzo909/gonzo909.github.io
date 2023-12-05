@@ -213,6 +213,19 @@ tr:nth-child(odd) {
     color: #FFFAFF;
 }
 
+#rentalimages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+    order: 2;
+}
+
+#rentalimages img {
+    margin: 0 50px;
+}
+
 /* Form styles */
 
 /* Footer */
