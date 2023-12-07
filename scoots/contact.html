@@ -3,18 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <meta name="author" content="Gonzalo Jimenez">
+    <meta name="description" content="Rental Scooters in Cozumel, Mexico">
+    <meta property="og:title" content="Scoots rental scooters">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="rental scooters in Cozumel, Mexico">
+    <meta property="og:url" content="https:/gonzo909.github.io/wdd230/scoots/index.html">
+    <meta property="og:image" content="https:/gonzo909.github.io/wdd230/scoots/images/">
+    <title>Scoots | Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
-    <header><h1>Scoots</h1></header>
-    <nav>
-        <ul class="navbar">
-            <li><a href="#" title="Home">Home</a></li>
-            <li><a href="scoots/reservations.html">Reservations</a></li>
-            <li><a href="scoots/rentals.html">Rentals</a></li>
-            <li><a href="scoots/contact.html" class="active">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="head-banner">
+        <header><h1>Scoots</h1></header>
+        <button id="menu"></button>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html" title="Home">Home</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="rentals.html">Rentals</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 
     <main>
         <section class="card">
@@ -22,6 +39,17 @@
             <p>Phone: 555-555-5555</p>
             <p>Email:</p>
             <p>Address:</p>
+        </section>
+        <section class="card">
+            <h3>Hours of Operation</h3>
+            <p>Monday - Friday: 9:00am - 5:00pm</p>
+            <p>Saturday: 10:00am - 4:00pm</p>
+            <p>Sunday: Closed</p>
+        </section>
+        <section class="card">
+            <h3>Our Locations</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.8844111106146!2d-86.9526010222286!3d20.510964156425675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59ce994bd445%3A0xd797cfd3533e2594!2sCalle%202%20Nte%20130-146%2C%20Centro%2C%2077600%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1701939996421!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.983019043143!2d-86.95944857222948!3d20.5069223565692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e575bf05af6c3%3A0x4b08c15518d17561!2sAv.%20Rafael%20E.%20Melgar%20599%2C%20Centro%2C%2077600%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1701939718113!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
         <section class="card">
             <h3>Follow Us</h3>
@@ -46,9 +74,15 @@
                 <input type="tel" id="phone" name="phone" required>
                 <label for="comments">Comments:</label>
                 <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-                <input type="submit" value="Submit">
             </fieldset>
+
+            <input type="submit" value="Send My Message!" class="submitBtn">
         </form>
     </main>
+
+    <footer>
+        <p>&copy; 2023 Scoots, All Rights Reserved</p>
+    </footer>
+    <script src="scripts/menu.js"></script>
 </body>
 </html>

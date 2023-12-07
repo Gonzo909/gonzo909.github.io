@@ -27,20 +27,40 @@ header {
     text-align: center;
 }
 
+#menu {
+    display: block;
+    background-color: #3E92CC;
+    font-size: 1rem;
+    border: 1px solid rgba(0,0,0,0.3);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+#menu::before{
+    content: "≡"
+}
+
+#menu.open::before {
+    content: "✖️"
+}
+
+.active{
+    border: 2px solid #FFFAFF;
+}
+
 nav {
     text-align: center;
 }
 
 .navbar {
     list-style: none;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
+    margin: 0 auto;
+    max-width: 760px;
 }
 
 .navbar li {
-    margin: 0 15px;
-    justify-content: center;
+    display: none;
 }
 
 .navbar a {
@@ -48,11 +68,23 @@ nav {
     color: #FFFAFF;
     font-weight: bold;
     font-size: 18px;
+    display: block;
+    text-align: left;
+    transition: 0.s;
 }
 
 .navbar li:hover {
     color: #FFFAFF;
     background-color: #0A2463;
+}
+
+.open li {
+    display: block;
+    width: 100%;
+}
+
+.open li {
+    display: block;
 }
 
 main {
