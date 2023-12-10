@@ -25,8 +25,17 @@ body {
     grid-template-columns: 300px 2fr;
 }
 
+.scooter {
+    grid-column: 1 / 2;
+    position: absolute;
+    margin-left: 125px;
+    margin-top: -10px;
+}
+
 header {
-    text-align: center;
+    text-align: left;
+    z-index: 1;
+    margin-left: 50px;
 }
 
 #menu {
@@ -83,10 +92,6 @@ nav {
 .open li {
     display: block;
     width: 100%;
-}
-
-.open li {
-    display: block;
 }
 
 main {
