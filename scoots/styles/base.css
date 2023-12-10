@@ -21,6 +21,8 @@ body {
     background-color: #3E92CC;
     color: #FFFAFF;
     padding: 10px;
+    display: grid;
+    grid-template-columns: 300px 2fr;
 }
 
 header {
@@ -110,6 +112,7 @@ main {
 .herolabel {
     text-align: center;
     margin-top: 10px;
+    padding: 5px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -144,13 +147,6 @@ main {
     align-items: center;
 }
 
-.socialmedia {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-}
-
 /*Weather section*/
 #weathercard {
     text-align: center;
@@ -164,13 +160,13 @@ main {
     color: #333; 
     padding: 20px;
     margin-top: 20px;
-    flex-basis: calc(33.33% - 20px);
     box-sizing: border-box;
 }
 
 .card h3 {
     color: #0A2463;
     margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 .card p {
@@ -191,8 +187,7 @@ main {
  display: flex;
  flex-wrap: wrap;
  justify-content: space-between;
- flex: 1;
- order: 1;
+ margin-bottom: -100px;
 }
 
 #rentalcard img {
@@ -265,6 +260,7 @@ tr:nth-child(odd) {
     border: 1px solid #3E92CC; /* Light Blue */
     padding: 20px;
     margin-top: 20px;
+    max-height: 600px;
 }
 
 #agreement h3 {

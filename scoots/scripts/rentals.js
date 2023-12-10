@@ -19,10 +19,10 @@ const displayRentals = (rentals) => {
 
         type.textContent = rental.type;
         max.textContent = rental.maxpersons;
-        reservationHalf.textContent = rental.reservation[0].halfday;
-        reservationFull.textContent = rental.reservation[0].fullday;
-        walkinHalf.textContent = rental.walkin[0].halfday;
-        walkinFull.textContent = rental.walkin[0].fullday;
+        reservationHalf.textContent = '$' + rental.reservation[0].halfday;
+        reservationFull.textContent = '$' + rental.reservation[0].fullday;
+        walkinHalf.textContent = '$' + rental.walkin[0].halfday;
+        walkinFull.textContent = '$' + rental.walkin[0].fullday;
 
         row.appendChild(type);
         row.appendChild(max);
