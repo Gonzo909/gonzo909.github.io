@@ -62,4 +62,8 @@ max-height: 450px;
 body #maps {
   flex-wrap: nowrap ;
 }
+
+body #followus {
+  margin-top: 20px;
+}
   }
