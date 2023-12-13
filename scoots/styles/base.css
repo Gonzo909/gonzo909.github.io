@@ -149,6 +149,10 @@ main {
     align-items: center;
 }
 
+#followus {
+    margin-top: -20px;
+}
+
 .forecast {
     display: flex;
     flex-wrap: wrap;
@@ -305,6 +309,7 @@ fieldset {
 legend {
     color: #0A2463;
     font-weight: bold;
+    padding: 0 10px;
 }
 
 label {
