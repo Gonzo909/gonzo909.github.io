@@ -23,19 +23,20 @@ body {
     padding: 10px;
     display: grid;
     grid-template-columns: 300px 2fr;
+    width: 100%;
 }
 
 .scooter {
     grid-column: 1 / 2;
     position: absolute;
-    margin-left: 125px;
+    margin-left: 175px;
     margin-top: -10px;
 }
 
 header {
     text-align: left;
     z-index: 1;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 #menu {
@@ -102,6 +103,8 @@ main {
     justify-content: space-between;
 }
 
+
+
 /* Hero section */
 
 .hero {
@@ -116,7 +119,7 @@ main {
 
 .herolabel {
     text-align: center;
-    margin-top: 10px;
+    margin-top: -40px;
     padding: 5px;
     position: absolute;
     top: 50%;
@@ -139,24 +142,22 @@ main {
     font-weight: bold;
 }
 
-/*Contact section*/
-#contactcard h3 {
-    text-align: center;
+/* Social Media Card*/
+.socialmedia {
+    height: 50px;
+    margin-top: 30px;
+    align-items: center;
 }
 
-/*Social media section*/
-#socialcard h3 {
-    text-align: center;
+.forecast {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
 }
 
-/*Weather section*/
-#weathercard {
+.forecast p {
     text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
 /* Card section */
@@ -170,6 +171,7 @@ main {
 
 .card h3 {
     color: #0A2463;
+    text-align: center;
     margin-bottom: 10px;
     text-decoration: underline;
 }
@@ -192,7 +194,7 @@ main {
  display: flex;
  flex-wrap: wrap;
  justify-content: space-between;
- margin-bottom: -100px;
+ margin-bottom: -50px;
 }
 
 #rentalcard img {
@@ -209,7 +211,7 @@ main {
     width: 100%;
     color: #333;
     font-family: 'Agbalumo', sans-serif;
-    font-size: 25px;
+    font-size: 19.8px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -255,7 +257,7 @@ tr:nth-child(odd) {
 }
 
 #rentalimages img {
-    margin: 0 50px;
+    margin: 15px 50px;
 }
 
 /* RESERVATIONS */
@@ -367,6 +369,20 @@ textarea {
     text-align: center;
 }
 
+#locations {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#maps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 
 /* Footer */

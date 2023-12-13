@@ -21,6 +21,7 @@
 </head>
 <body>
     <div class="head-banner">
+        <img class="scooter" src="images/scooter-icon.png" alt="Scoots Logo">
         <header><h1>Scoots</h1></header>
         <button id="menu"></button>
         <nav>
@@ -48,12 +49,6 @@
             <p>Sunday: Closed</p>
         </section>
 
-        <!--Embedded Maps-->
-        <section class="card">
-            <h3>Our Locations</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.8844111106146!2d-86.9526010222286!3d20.510964156425675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59ce994bd445%3A0xd797cfd3533e2594!2sCalle%202%20Nte%20130-146%2C%20Centro%2C%2077600%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1701939996421!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.983019043143!2d-86.95944857222948!3d20.5069223565692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e575bf05af6c3%3A0x4b08c15518d17561!2sAv.%20Rafael%20E.%20Melgar%20599%2C%20Centro%2C%2077600%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1701939718113!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
         <section class="card">
             <h3>Follow Us</h3>
             <ul>
@@ -63,8 +58,18 @@
             </ul>
         </section>
 
+        <!--Embedded Maps-->
+        <section class="card" id="locations">
+            <h3>Our Locations</h3>
+            <div id="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.8844111106146!2d-86.9526010222286!3d20.510964156425675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e59ce994bd445%3A0xd797cfd3533e2594!2sCalle%202%20Nte%20130-146%2C%20Centro%2C%2077600%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1701939996421!5m2!1sen!2sus" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3736.983019043143!2d-86.95944857222948!3d20.5069223565692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e575bf05af6c3%3A0x4b08c15518d17561!2sAv.%20Rafael%20E.%20Melgar%20599%2C%20Centro%2C%2077600%20Cozumel%2C%20Q.R.%2C%20Mexico!5e0!3m2!1sen!2sus!4v1701939718113!5m2!1sen!2sus" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+       
+
         <!--Contact Us Form-->
-        <form>
+        <form id="contactform" method="get" action="thankyoucomment.html">
             <fieldset>
                 <legend>Contact Us</legend>
                 <label for="name">Name:</label>

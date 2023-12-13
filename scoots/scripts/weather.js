@@ -20,7 +20,6 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             displayResults(data);
         }
         else {
@@ -31,10 +30,11 @@ async function apiFetch() {
         console.log("Error: ", error);
     }
 
-   /* try {
+   try {
         const forecastResponse = await fetch(forecastUrl);
         if (forecastResponse.ok) {
             const forecastData = await forecastResponse.json();
+            console.log(forecastData);
             displayForecast(forecastData);
         }
         else {
@@ -43,7 +43,7 @@ async function apiFetch() {
     }
     catch (error) {
         console.log("Error: ", error);
-    }*/
+    }
 }
 
 function displayResults(data) {
@@ -58,10 +58,10 @@ function displayResults(data) {
     humidity.textContent = `${data.main.humidity}%`;
 }
 
-/*function displayForecast(forecastData) {
-    forecastTime1.textContent = new Date(forecastData.list[0].dt_txt).toLocaleDateString('en-US', { weekday: 'short' });
-    forecastTime2.textContent = new Date(forecastData.list[3].dt_txt).toLocaleDateString('en-US', { weekday: 'short' });
-    forecastTime3.textContent = new Date(forecastData.list[6].dt_txt).toLocaleDateString('en-US', { weekday: 'short' });
+function displayForecast(forecastData) {
+    forecastTime1.textContent = new Date(forecastData.list[0].dt_txt).toLocaleTimeString('en-US');
+    forecastTime2.textContent = new Date(forecastData.list[3].dt_txt).toLocaleTimeString('en-US');
+    forecastTime3.textContent = new Date(forecastData.list[6].dt_txt).toLocaleTimeString('en-US');
 
     forecastTemp1.textContent = `${forecastData.list[0].main.temp.toFixed(0)}°F`;
     forecastTemp2.textContent = `${forecastData.list[3].main.temp.toFixed(0)}°F`;
@@ -77,6 +77,6 @@ function displayResults(data) {
     forecastIcon2.setAttribute('alt', forecastData.list[3].weather[0].description);
     forecastIcon3.setAttribute('src', iconsrc3);
     forecastIcon3.setAttribute('alt', forecastData.list[6].weather[0].description);
-}*/
+}
 
 apiFetch();
